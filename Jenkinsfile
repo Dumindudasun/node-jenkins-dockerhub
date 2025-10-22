@@ -20,6 +20,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
+                bat 'start /B node index.js'
                 bat 'npm test || echo "No tests found"'
             }
         }
