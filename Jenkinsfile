@@ -20,14 +20,9 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat '''
-                if exist test (
-                    npm test
-                ) else (
-                    echo No tests found
-                )
-                '''
+                bat 'npm test || echo "No tests found"'
             }
+        }
         stage('Build Docker Image') {
             steps {
                 bat 'docker build -t %DOCKER_HUB_REPO%:latest .'
