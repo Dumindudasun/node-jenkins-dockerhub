@@ -101,4 +101,4 @@ Add email/slack notifications for build status
 
 👨‍💻 Author
 Dumindu Dasun
-🎓 DevOps Enthusiast | Jenkins | Docker | CI/CD | Automation
+🎓 DevOps Enthusiast | Jenkins | Docker | CI/CD | Automation |
