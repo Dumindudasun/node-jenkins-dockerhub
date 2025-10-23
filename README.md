@@ -97,7 +97,7 @@ Pushes it to Docker Hub automatically 🎉
 💡 Future Improvements
 Deploy automatically to Kubernetes or AWS EC2
 Add test coverage reports
-Add email/slack notifications for build status
+Add email/slack notifications for build statuss
 
 👨‍💻 Author
 Dumindu Dasun
